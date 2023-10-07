@@ -1,2 +1,2 @@
-nome = input("Qual seu nome? ")
-print("Seu nome é:", nome)
+a = 1 + 1
+print(a)
