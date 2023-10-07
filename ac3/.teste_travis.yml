@@ -1,15 +1,15 @@
-import ac3
+import nome
 import sys
 
 erroInicializar = False
 
 
-atividade = ac3.inicializar()
+atividade = nome.inicializar()
 
-if len(jogo) != 3:
+if len(atividade) != 3:
 	erroInicializar = True
 else:
-	for linha in jogo:
+	for linha in atividade:
 		if len(linha) != 3:
 			erroInicializar = True
 		else:
