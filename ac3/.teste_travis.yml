@@ -1,10 +1,10 @@
-import nome
+import soma
 import sys
 
 erroInicializar = False
 
 
-atividade = nome.inicializar()
+atividade = soma.inicializar()
 
 if len(atividade) != 3:
 	erroInicializar = True
